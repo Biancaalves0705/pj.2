@@ -120,6 +120,8 @@ if (entropia > 57){
 } else if (entropia <= 35){
     forcaSenha.classList.add('fraca');
 }
+const valorEntropia = document.querySelector('.entropia');
+valorEntropia.textContent = entropia;
 
 
 
